@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BDPersonasModelStoreContainer" CdmEntityContainer="BDPersonasEntities">
+    <EntitySetMapping Name="Persona">
+      <EntityTypeMapping TypeName="BDPersonasModel.Persona">
+        <MappingFragment StoreEntitySet="Persona">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Documento_Identidad" ColumnName="Documento_Identidad" />
+          <ScalarProperty Name="Nombres" ColumnName="Nombres" />
+          <ScalarProperty Name="Apellidos" ColumnName="Apellidos" />
+          <ScalarProperty Name="Fecha_Nacimiento" ColumnName="Fecha_Nacimiento" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Telefono2" ColumnName="Telefono2" />
+          <ScalarProperty Name="Correo_Electronico" ColumnName="Correo_Electronico" />
+          <ScalarProperty Name="Correo_Electronico2" ColumnName="Correo_Electronico2" />
+          <ScalarProperty Name="Direccion_Fisica" ColumnName="Direccion_Fisica" />
+          <ScalarProperty Name="Direccion_Fisica2" ColumnName="Direccion_Fisica2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
